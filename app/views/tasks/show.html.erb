@@ -1,0 +1,8 @@
+<%= link_to "Edit this Task", taskedit_path %>
+
+<h1>Details of the Chosen Tasks</h1>
+<h2>Title: <%= @task.title %></h2>
+<p>Details: <%= @task.details %></p> 
+<p>Completed: <%= @task.completed %></p>
+
+<%= link_to "Back to List", index_path %>
